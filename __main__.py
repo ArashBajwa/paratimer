@@ -1,6 +1,5 @@
 import tkinter as tk
 from countdown_timer import CountdownTimer
-from application import Application
 from time import time, sleep 
 
 def main():
