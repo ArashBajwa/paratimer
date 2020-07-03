@@ -5,7 +5,7 @@ from time import time, sleep
 def main():
 	root = tk.Tk()
 	root.title("Paratimer")
-	root.geometry("250x100")
+	root.geometry("280x100")
 	root.attributes('-topmost', True)
 	root.configure(background="#000a12")
 
@@ -47,7 +47,6 @@ def setup_events(root, countdownTimer, timeLabel, commandEntry):
 			isCountingDown = True
 			root.after(1000, update_timer)
 		elif command[0: 10] == "countdown " and commandLength > 10:
-			print("something's happening")
 			timeInput = command[10:].split(':')
 			formatOfTime = len(timeInput)
 			secondsToCountdownFrom = 0
