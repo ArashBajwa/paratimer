@@ -1,8 +1,11 @@
+(Sakrosen is my old account)
 # paratimer
 
 A simple application that shows a window which is always on top and works as a countdown timer.
 
 Coded in Python 3.7, although should work fine with other Python 3 versions and uses tkinter.
+
+[Paratimer demonstration video](https://i.imgur.com/vtUlEoi.mp4)
 
 ## commands for input
 
